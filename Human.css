@@ -1,0 +1,171 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: aliceblue;
+}
+.Top_portion{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.Top_portion:before {
+    content: '';
+    position: absolute;
+    background: rgb(231 217 146);
+    height: 2px;
+    width: 570px;
+    bottom: 25px;
+    margin-left: 925px;
+}
+.Logo{
+    padding-left: 12px;
+    padding-top: 40px;
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding: 40px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(77, 28, 175);
+}
+.Navbar{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+.MainHeading{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 50px;
+    justify-content: center;
+}
+.Inside_Main1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+.searchBar{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 350px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 25px;
+}
+i{
+    position: absolute;
+}
+.fa-magnifying-glass{
+    margin-left: 5px;
+    /* align-self: center; */
+    /* display: flex; */
+    /* align-content: flex-start; */
+    /* justify-content: space-between; */
+    margin-top: 10px;
+}
+button {
+    position: relative;
+    transition: 0.5s;
+    letter-spacing: 0.1em;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    width: 90px;
+    border-radius: 10px;
+    margin-left: 11px;
+    padding: 6px;
+    font-size: 15px;
+    background-color: beige;
+}
+button:hover{
+    cursor: pointer;
+    letter-spacing: 0.25em;
+}
+.Main2::before {
+    content: "";
+    margin-left: 70px;
+    position: absolute;
+    background: rgb(231 217 146);
+    height: 2px;
+    /* width: 90%; */
+    bottom: -35px;
+    width: 90%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.Main2{
+    position: relative;
+}
+.Doctor1{
+    display: flex;
+    justify-content: space-around;
+}
+.Card{
+    background-color: #cbdae7;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 320px;
+        width: 369px;
+        border: 2px solid rgb(179 179 203);
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+        border-radius: 10px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        padding-top: 50px;
+}
+.Card_image {
+    /* margin-right: 50px; */
+    margin-top: 0px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    margin-left: 132px;
+}
+.Img1 {
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+}
+.Card_info{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+.Card_Btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.MYbtn{
+        position: relative;
+        transition: 0.5s;
+        letter-spacing: 0.1em;
+        color: black;
+        font-family: 'Cabin', sans-serif;
+        border-radius: 10px;
+        margin-left: 11px;
+        padding: 6px;
+        font-size: 15px;
+        background-color: beige;
+        width: 240px;
+}
